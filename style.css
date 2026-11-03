@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(22, 151, 143);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Nabla';
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    color: white;
+}
+
+/* Arial instead of Nabla, so the color works */
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: hotpink;
+    text-align: right;
+    margin-right: 5rem;
+}
+
+h4 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 1rem;
+    margin: 0.5rem;
+    color: #050553;
+    background: pink;
+    border-radius: 10px;
+}
